@@ -15,7 +15,7 @@ public class CommonResult<T> implements Serializable
     private String  message;
     private T       data;
 
-
+//测试githup
     public CommonResult(Integer code, String message)
     {
         this(code,message,null);
